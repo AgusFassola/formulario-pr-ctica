@@ -7,13 +7,25 @@
     <title>Formulario</title>
 </head>
 <body>
-    <form action="">
-        <label for="">Para:</label>
-        <input type="email">
-        <label for="">Asunto:</label>
-        <input type="text">
-        <label for="">Mensaje:</label>
-        <textarea name="" id=""></textarea>>
-    </form>
+    <div class="d-flex">
+        <header>Enviar email</header>
+        <form class="formulario" action="" id="form">
+            <label for="">Para:</label>
+            <input type="email" id="email">
+            <label for="">Asunto:</label>
+            <input type="text" id="mensaje">
+            <label for="">Mensaje:</label>
+            <textarea name="" id="textarea"></textarea>
+            <div>
+                <div class="spinner"></div>
+                <div class="botones">
+                    <button id="btnEnviar">Enviar</button>
+                    <button id="btnVaciar">Vaciar Formulario</button>
+                </div>
+            </div>
+        </form>
+        
+    </div>
+    
 </body>
 </html>
