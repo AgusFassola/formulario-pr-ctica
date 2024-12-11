@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 38, 51);
+    color: aliceblue;
+    font-size: 1.2rem;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    color:rgb(31, 38, 51) ;
+    padding-top: 20px;
+    text-align: center;
+    background-color: lightblue;
+    width: 100%;
+    height: 40px;
+}
+.formulario{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.botones{
+    margin-top: 20px;
+    height: 50px;
+}
+#btnEnviar{
+    background-color: rgb(141, 224, 149);
+    color: green ;
+    width: auto;
+    border: solid green;
+    border-radius: 10px;
+    height: 30px;
+}
+#btnEnviar:hover{
+    background-color: white;
+}
+#btnVaciar{
+    background-color: rgb(225, 160, 160);
+    border: solid red;
+    border-radius: 10px;
+    color: red;
+    width: auto;
+    height: 30px;
+}
+#btnVaciar:hover{
+    background-color: white;
+}
